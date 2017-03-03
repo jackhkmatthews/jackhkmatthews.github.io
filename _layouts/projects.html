@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+These are my projects...
+
+<ul>
+  {% for project in site.projects %}
+  <li>
+    <a href="{{ project.url | prepend: site.baseurl }}">
+      {{ project.title }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
