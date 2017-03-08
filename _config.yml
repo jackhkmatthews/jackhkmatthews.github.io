@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Portfolio
+title: Jack's Portfolio
 email: jackhkmatthews@gmail.com
 description: > # Place to show lots of pretty things.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -29,6 +29,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
 
 collections:
   projects:

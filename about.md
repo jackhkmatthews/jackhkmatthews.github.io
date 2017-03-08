@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Welcome to my site.
+Check out my [GitHub](http://github.com/jackhkmatthews) or send me an [email](mailto:jack@jackhkmatthews.com).
