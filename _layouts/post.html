@@ -1,22 +1,49 @@
 ---
-layout: default
+layout: compress
 ---
 
-<article class="container mx-auto px-2" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="mt-4 mb-2 clearfix header-text">
-    <h1 class="h0 inline-block py-2 mt-4 header-title">{{ page.title }}</h1>
-    <div class="clearfix mb-4 py-1">
-      <p class="h4 lh-condensed"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
-      <div class="col-1 sm-width-full border-top-thick">
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="posts" class="inner-post-page">
+
+    <div class="block-left">
+      <div class="content">
+        <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
+        <div class="post-title-section">
+          <div class="section-line">Posts <em>/</em></div>
+          <h1 class="section-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+          <ul class="tags">
+            {% for tag in page.tags %}
+              <li><a href="{{ site.url }}/tags#{{ tag }}">{{ tag }}</a></li>
+              {% unless forloop.last %}
+              {% endunless %}
+            {% endfor %}
+          </ul>
+          <div class="section-line reverse"><a href="{{ site.url}}/posts">Back to posts</a> <em>/</em></div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="prose py-4" itemprop="articleBody">
-      {{ content }}
-  </div>
-</article>
-
-<div class="container mx-auto px-2 py-2 clearfix">
-  {% include previous-next.html %}
-</div>
+    <div class="block-right">
+      <div class="share-buttons">
+        <!-- {% include share.html %} -->
+      </div>
+      <a href="../posts.html" title="posts" class="posts-menu-icon"></a>
+      <a title="projects" class="projects-menu-icon">
+        <span></span>
+      </a>
+      <div class="inner-post content">
+        <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
+        <a href="https://wdi-project-4-client.herokuapp.com/" class="btn btn_google-plus" title="Share on Google Plus" target="_blank"><span> Heroku</span></a>
+        <a href="https://github.com/jackhkmatthews/WDI_PROJECT_4_CLIENT" class="btn btn_google-plus" title="Share on Google Plus" target="_blank"><i class="fa fa-github" aria-hidden="true"></i><span> GitHub</span></a>
+        {{ content }}
+        <br>
+        <!-- {% include share.html %}
+        {% include page-pagination.html %} -->
+      </div>
+    </div>
+    {% include scripts.html %}
+    {% include overlay.html %}
+</body>
+</html>
