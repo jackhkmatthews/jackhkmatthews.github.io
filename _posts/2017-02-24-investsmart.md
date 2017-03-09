@@ -4,12 +4,18 @@ title: "InvestSmart"
 excerpt: "Examples and code for displaying images in posts."
 image: "https://cloud.githubusercontent.com/assets/20629455/23711381/9e795ec6-0417-11e7-8a58-8470fe22612e.png"
 tags:
-  - Ruby on Rails
-  - AngularJS
-  - Bootstrap
+- Ruby on Rails
+- AngularJS
+- Skeleton
+- PostgreSQL
+- ngResource
+- angular-jwt
+- chart.js
+- angucomplete-alt
+- nokogiri
+- httparty
+- Yahoo Finance API
 ---
-
-# InvestSmart
 
 ## Overview
 
@@ -20,23 +26,6 @@ InvestSmart was built to make investing in stocks & shares easier. It was create
 InvestSmart was an idea I have wanted to make for a long time - to automate the building and updating of financial models. This process is currently extremely inefficient, often taking a trained analyst (my previous profession) a day or more each time. These models are also only available to institutional investors (investment/pension/hedge funds). The average person on the street has no access to these models, and lacks the time & skillset to build them.
 
 The idea involved scraping US company financials, parsing them into a consistent format and storing them in our database. We also decided to build out several other features that would allow the average investor to track their investments - including the ability to add stocks to a watchlist, news / press release RSS feeds, stock price charts, and valuation multiples versus industry peers.
-
-## The build
-
-- Back-end: Ruby on Rails
-- Front-end: AngularJS
-- CSS framework: Skeleton
-- Database: PostgreSQL
-- Angular modules:
-	- Simple HTTP requests: ngResource
-	- Authentication: angular-jwt
-	- Charts: chart.js
-	- Autocomplete functionality: angucomplete-alt
-- Ruby gems:
-	- Parsing: nokogiri
-	- HTTP requests: httparty
-- External APIs:
-	- Yahoo Finance
 
 ## The process
 

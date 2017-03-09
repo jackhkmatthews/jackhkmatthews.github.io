@@ -4,28 +4,18 @@ title: "Key Karaoke"
 excerpt: "Examples and code for displaying images in posts."
 image: "https://cloud.githubusercontent.com/assets/20629455/23711595/338e6330-0418-11e7-92b2-2c07c82a7845.png"
 tags:
+  - JavaScript
   - jQuery
   - HTML
   - CSS
 ---
-
-# GA WDI24 Project 1 - [Typing Karaoke](https://keykaraoke.herokuapp.com/)
-
-## Local Setup
-1. Clone or download the repository.
-2. Open the index.html file in Chrome.
-
-## Technologies Used
-
-### Front-end
-
-JavaScript, jQuery, HTML, CSS.
 
 ## Brief
 
 To produce a browser game using the HTML, CSS, JavaScript and jQuery topics covered during the first two weeks of the General Assembly Web Development Immersive course.
 
 ## Overview
+
 I decided to create a music based typing game similar to karaoke where the player can select a song of their choice to test their typing ability.  Hence combining my musical interests with a want to improve my typing.
 
 The player is continually displayed the number of characters hit and missed and a completion rate. The aim of the game is to keep the completion rate as near as possible to 100%.

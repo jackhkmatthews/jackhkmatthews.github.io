@@ -2,34 +2,26 @@
 layout: post
 title: "Toy Tube Map"
 excerpt: "Examples and code for displaying images in posts."
-image: "https://cloud.githubusercontent.com/assets/20629455/23711705/86f52392-0418-11e7-91fd-3e255a11a74c.png"
+image: "https://cloud.githubusercontent.com/assets/20629455/23756648/3fa98842-04dc-11e7-8696-0d0050360136.png"
 tags:
   - Node.js
-  - jQuery
-  - CSS
+  - Express.js
+  - gulp.js
+  - MongoDB
+  - Mongoose
+  - JSON web tokens
+  - Bcrypt
+  - ES6.
 ---
 
-# WDI-PROJECT-2 - [Toy Tube Map](https://tube-map.herokuapp.com/)
-
-## Local Setup
-1. Clone or download the repository and navigate to it's root in terminal.
-2. run `npm i`, `mongod`, `node db/seeds.js` and `gulp`.
-3. Navigate to [http://localhost:7000](http://localhost:7000/).
-
-## Technologies Used
-
-### Back-end
-Node.js, Express.js, gulp.js, MongoDB, Mongoose, JSON web tokens, Bcrypt, ES6.
-
-### Front-end
-JavaScript, jQuery, HTML, CSS, SCSS, Object Orientation, AJAX requests, Google Maps JavaScript API, TFL Unified API, User Authentication.
-
 ## Brief
-We were challanged to use an external Web API merged with the Google Maps JavaScript API to create a map based Single Page Application.
+
+We were challenged to use an external Web API merged with the Google Maps JavaScript API to create a map based Single Page Application.
 
 As an MVP, the app needed to be served by our own Express.js web server, allow user authentication via JSON Web Tokens, Bcrypt and our own Web API linked via Mongoose to a MongoDB database and plot the data gained from the external Web API of our choice onto a Google map via the Google Maps API's markers.
 
 ## Overview
+
 After considering a few ideas, I decided to try and build my own version of a live tube map, where animated tube carriages would be visible to the user in near real time - informed by TFL's Unified API.
 
 I initially considered mapping and animating all of London's tube carriages simultaneously however decided it to be beyond the scope of the project and almost definitely beyond my current ability. Instead the user would add their own trains to the map by selecting line, origin and destination. The trains would then depart in near real time using information from TFL's unified API.
