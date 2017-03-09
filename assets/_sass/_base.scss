@@ -26,7 +26,7 @@ body {
 }
 
 body {
-  font-family: $base-font;
+  font-family: $jack-font;
   color: $overlay-color;
   background: $white;
 }
@@ -104,7 +104,7 @@ h4,
 h5,
 h6 {
   margin: 2rem 0 0.5rem;
-  font-family: $base-font;
+  font-family: $jack-font;
 }
 
 h1 {
@@ -297,5 +297,5 @@ pre {
     font-size: 0.9em;
     border-radius: 2px;
     background-color: darken($white, 5%);
-    font-family: $base-font;
+    font-family: $jack-font;
   }
