@@ -294,6 +294,19 @@ canvas {
   text-shadow: none;
 }
 
+.home-logo {
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  img {
+    width: 50px;
+    height: auto;
+  }
+  &:after {
+    display: none;
+  }
+}
+
 .main-info,
 .about-info {
   text-align: center;
