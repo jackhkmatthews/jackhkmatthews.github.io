@@ -15,6 +15,12 @@ tags:
 
 ## Overview
 
-I decided to create a music based typing game similar to karaoke where the player can select a song of their choice to test their typing ability.  Hence combining my musical interests with a want to improve my typing.
+I decided to create a music based typing game similar to karaoke where the player can select a song of their choice to test their typing ability.  Hence combining my musical interests with a want to improve my typing. The player is continually displayed the number of characters hit and missed and a completion rate. The aim of the game is to keep the completion rate as near as possible to 100%.
 
-The player is continually displayed the number of characters hit and missed and a completion rate. The aim of the game is to keep the completion rate as near as possible to 100%.
+## Favourite Bit
+
+The intelligent on screen highlighting of correctly typed lyrics letter by letter.
+
+## Tech
+
+Vanilla JavaSript, jQuery, CSS, HTML.
