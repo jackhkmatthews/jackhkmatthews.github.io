@@ -2,7 +2,7 @@
 layout: post
 icon: icon-key-karaoke.png
 title: "Key Karaoke"
-description: "A lyric typing game where the player selects a song to listen and type to as the lyrics waterfall, line by line, down the screen."
+description: "GA WDI Project 1"
 heroku: "http://keykaraoke.herokuapp.com"
 github: "https://github.com/jackhkmatthews/WDI_PROJECT_1"
 image: "key-karaoke.png"
@@ -15,7 +15,7 @@ tags:
 
 ## Overview
 
-I decided to create a music based typing game similar to karaoke where the player can select a song of their choice to test their typing ability.  Hence combining my musical interests with a want to improve my typing. The player is continually displayed the number of characters hit and missed and a completion rate. The aim of the game is to keep the completion rate as near as possible to 100%.
+For my first project on the General Assembly Web Development Immersive course I created a lyric typing game. In the game the player selects a song to listen and type to as the lyrics waterfall, line by line, down the screen. The aim of the game is to keep the completion rate as near to 100% as possible. More can be read [here](https://github.com/jackhkmatthews/WDI_PROJECT_1).
 
 ## Favourite Bit
 
