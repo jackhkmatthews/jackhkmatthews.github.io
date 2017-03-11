@@ -13,7 +13,7 @@ tags:
   - CSS
 ---
 
-## Overview
+## Summary
 
 For my first project on the General Assembly Web Development Immersive course I created a lyric typing game. In the game the player selects a song to listen and type to as the lyrics waterfall, line by line, down the screen. The aim of the game is to keep the completion rate as near to 100% as possible. More can be read [here](https://github.com/jackhkmatthews/WDI_PROJECT_1).
 

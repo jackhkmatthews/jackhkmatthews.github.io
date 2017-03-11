@@ -17,7 +17,7 @@ tags:
   - ES6.
 ---
 
-## Overview
+## Summary
 
 For my second project on the General Assembly Web Development Immersive course I built a live Tube map, where animated tube carriages travel across London - informed by TFL's Unified API and Google's Map and Route APIs. The user can add trains to the map by selecting line, origin and destination and watch them in near real time. More can be read [here](https://github.com/jackhkmatthews/WDI_PROJECT_2).
 

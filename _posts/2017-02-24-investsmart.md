@@ -20,7 +20,7 @@ tags:
 - Yahoo Finance API
 ---
 
-## Overview
+## Summary
 
 InvestSmart was built to make investing in stocks & shares easier. It was created as my final project during my 12-week Web Development Immersive course at General Assembly in London. We were given the choice to work individually or as a team - I decided to work with three classmates. InvestSmart was built using a Ruby on Rails back-end and AngularJS front-end.
 
