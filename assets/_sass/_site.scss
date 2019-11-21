@@ -37,15 +37,6 @@
   margin: 0 auto;
 }
 
-canvas {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
-
 .projects-menu-icon {
   position: absolute;
   top: 30px;
@@ -57,7 +48,7 @@ canvas {
   cursor: pointer;
   z-index: 3;
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     left: -19px;
     top: -2px;
@@ -75,7 +66,7 @@ canvas {
     border: 2px solid $gray;
     border-radius: 3px;
     &:before {
-      content: '';
+      content: "";
       position: absolute;
       left: -19px;
       top: -2px;
@@ -86,14 +77,14 @@ canvas {
     }
   }
   &:hover {
-    border-color: $jack-blue;
+    border-color: $blue-jack;
     &:before {
-      border-color: $jack-blue;
+      border-color: $blue-jack;
     }
     span {
-      border-color: $jack-blue;
+      border-color: $blue-jack;
       &:before {
-        border-color: $jack-blue;
+        border-color: $blue-jack;
       }
     }
   }
@@ -111,7 +102,7 @@ canvas {
   border: 2px solid $gray;
   background: $white;
   &:before {
-    content: '';
+    content: "";
     width: 20px;
     height: 25px;
     position: absolute;
@@ -121,7 +112,7 @@ canvas {
     background: $white;
   }
   &:after {
-    content: '';
+    content: "";
     width: 20px;
     height: 25px;
     border: 2px solid $gray;
@@ -131,10 +122,10 @@ canvas {
     background: $white;
   }
   &:hover {
-    border-color: $jack-blue;
+    border-color: $blue-jack;
     &:before,
     &:after {
-      border-color: $jack-blue;
+      border-color: $blue-jack;
     }
   }
 }
@@ -144,7 +135,7 @@ canvas {
   position: absolute;
   top: 73px;
   font-size: 12px;
-  color: darken($white, 40);
+  color: $gray-medium;
 }
 
 .posts-link {
@@ -152,7 +143,7 @@ canvas {
 }
 
 .projects-link {
-  right: 20px;
+  right: 16px;
 }
 
 .overlay {
@@ -175,7 +166,7 @@ canvas {
   height: 100%;
   > li {
     display: inline-block;
-    width: calc(100%/3);
+    width: calc(100% / 3);
     background: $overlay-color;
     height: 50%;
     border: 5px solid $overlay-color;
@@ -183,18 +174,9 @@ canvas {
     vertical-align: top;
     float: left;
     background-size: cover !important;
-    &:nth-child(8n+1),
-    &:nth-child(8n+2) {
-      width: 50%;
-      height: 70%;
-    }
-    &:nth-child(8n+6) {
-      width: calc(100%/3 + 100%/3);
-      height: 100%;
-    }
     a {
       border: 30px solid transparent;
-      background: rgba(0, 0, 0, 0.7);
+      background: rgba(44, 45, 51, 0.8);
       position: absolute;
       top: 0;
       right: 0;
@@ -205,18 +187,11 @@ canvas {
       -ms-transition: background 0.2s linear;
       -o-transition: background 0.2s linear;
       transition: background 0.2s linear;
-      &:hover:after,
-      &:hover:before {
-        -webkit-transform: scale(1);
-        -moz-transform: scale(1);
-        -ms-transform: scale(1);
-        -o-transform: scale(1);
-        transform: scale(1);
-        -webkit-transition: all 1s;
-        -moz-transition: all 1s;
-        -ms-transition: all 1s;
-        -o-transition: all 1s;
-        transition: all 1s;
+      &:hover {
+        background: rgba(44, 45, 51, 0.9);
+      }
+      &:hover span {
+        color: $blue-jack;
       }
       span {
         position: absolute;
@@ -227,6 +202,11 @@ canvas {
         -ms-transform: translate(-50%, -50%);
         -o-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
+        -webkit-transition: color 0.2s linear;
+        -moz-transition: color 0.2s linear;
+        -ms-transition: color 0.2s linear;
+        -o-transition: color 0.2s linear;
+        transition: color 0.2s linear;
         font-size: 30px;
         color: $white;
         padding-right: 10px;
@@ -240,43 +220,6 @@ canvas {
           line-height: 33px;
           color: darken($white, 40%);
         }
-      }
-      &:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        border-top: 1px solid rgba($white, 0.3);
-        border-bottom: 1px solid rgba($white, 0.3);
-        display: block;
-        height: 100%;
-        width: 100%;
-        -webkit-transform: scale(0, 1);
-        -moz-transform: scale(0, 1);
-        -ms-transform: scale(0, 1);
-        -o-transform: scale(0, 1);
-        transform: scale(0, 1);
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        -ms-transition: all 0.5s;
-        -o-transition: all 0.5s;
-        transition: all 0.5s;
-      }
-      &:before {
-        content: "";
-        border-right: 1px solid rgba($white, 0.3);
-        border-left: 1px solid rgba($white, 0.3);
-        display: block;
-        height: 100%;
-        -webkit-transform: scale(1, 0);
-        -moz-transform: scale(1, 0);
-        -ms-transform: scale(1, 0);
-        -o-transform: scale(1, 0);
-        transform: scale(1, 0);
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        -ms-transition: all 0.5s;
-        -o-transition: all 0.5s;
-        transition: all 0.5s;
       }
     }
   }
@@ -294,13 +237,31 @@ canvas {
   text-shadow: none;
 }
 
-.home-logo {
-  top: 20px;
-  left: 20px;
+.home-link {
+  display: inline-block;
+  top: 30px;
+  left: 30px;
   position: absolute;
-  img {
-    width: 50px;
-    height: auto;
+  a {
+    display: block;
+    svg {
+      width: 35px;
+      height: auto;
+      path {
+        fill: $white;
+      }
+    }
+    &:hover {
+      path {
+        fill: $blue-jack;
+      }
+    }
+  }
+  span {
+    margin-top: 5px;
+    display: block;
+    font-size: 12px;
+    transform: translateX(-2px);
   }
   &:after {
     display: none;
@@ -322,7 +283,7 @@ canvas {
       content: "";
       width: 100px;
       height: 2px;
-      background: $jack-blue;
+      background: $blue-jack;
       bottom: -20px;
       position: absolute;
       left: 50%;
@@ -345,7 +306,7 @@ canvas {
     overflow: hidden;
     li {
       display: inline-block;
-      background: #585b63;
+      background: $gray-darker;
       margin-right: 10px;
       vertical-align: middle;
       -webkit-transform: translateZ(0);
@@ -367,7 +328,7 @@ canvas {
         left: 0;
         right: 0;
         bottom: 0;
-        background: $jack-blue;
+        background: $blue-jack;
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
         -webkit-transform-origin: 50% 100%;
@@ -385,9 +346,6 @@ canvas {
           transform: scaleY(1);
         }
       }
-      &:nth-child(odd) {
-        background: $overlay-color;
-      }
       &:last-child {
         margin-right: 0;
       }
@@ -403,6 +361,12 @@ canvas {
 
 .main-info {
   color: $white;
+  .logo svg {
+    width: 150px;
+    path {
+      fill: $white;
+    }
+  }
   h1 {
     font-weight: bold;
     text-transform: uppercase;
@@ -413,6 +377,7 @@ canvas {
     line-height: 30px;
     margin: 10px 0;
     padding-top: 25px;
+    color: $gray;
     &:after {
       display: none;
     }
@@ -423,29 +388,34 @@ canvas {
   text-align: left;
   h1,
   h2 {
-    font-size: 35px;
-    color: lighten($black, 27.8431);
+    font-size: $font-size-h1-h2;
+    color: $gray-medium;
+    display: inline-block;
+    &:not(:first-child) {
+      margin-top: 20px;
+    }
     &:after {
       position: absolute;
       left: auto;
       top: auto;
+      bottom: -10px;
       -webkit-transform: none;
       -moz-transform: none;
       -ms-transform: none;
       -o-transform: none;
       transform: none;
-      background: $jack-blue;
+      background: $blue-jack;
       left: 0;
-      width: 200px;
+      width: 100%;
     }
   }
   p {
-    color: darken($white, 40);
+    color: $gray-darkest;
     font-size: 16px;
     margin: 10px 0;
     padding-top: 0;
     line-height: 24px;
-    padding-top: 35px;
+    padding-top: 10px;
   }
 }
 
@@ -503,10 +473,10 @@ canvas {
       margin-bottom: 15px;
     }
     p {
-      color: darken($white, 40);
+      color: $gray-medium;
     }
     .date {
-      color: #399f62;
+      color: $green-darker;
       float: right;
       display: inline-block;
       font-size: 15px;
@@ -517,7 +487,7 @@ canvas {
       display: inline-block;
       max-width: 75%;
       &:hover span {
-        border-bottom: 1px dotted $jack-blue;
+        border-bottom: 1px dotted $blue-jack;
       }
     }
   }
@@ -565,18 +535,18 @@ canvas {
   p {
     font-size: 18px;
     line-height: 1.6;
-    color: #6c6c6c;
+    color: $gray-dark;
     margin-bottom: 1.3em;
   }
   small {
-    color: darken($white, 40);
+    color: $gray-medium;
     font-size: 16px;
     margin-bottom: 10px;
     display: block;
   }
   a:not(.btn):not(.pagination_pager) {
-    color: #399f62;
-    border-bottom: 1px dotted $jack-blue;
+    color: $green-darker;
+    border-bottom: 1px dotted $blue-jack;
   }
   ul,
   ol {
@@ -595,79 +565,10 @@ canvas {
   margin-bottom: 50px;
 }
 
-.post-title-section {
-  position: absolute;
-  bottom: 50px;
-  left: 50px;
-  right: 50px;
-  .section-title {
-    position: relative;
-    left: auto;
-    bottom: auto;
-    font-size: 80px;
-  }
-  .tags > li {
-    background: none;
-    border: 1px solid rgba($white, 0.4);
-    color: $white;
-    font-size: 15px;
-  }
-  .section-line {
-    color: $jack-blue;
-    position: relative;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    margin-bottom: 20px;
-    &:after {
-      content: '';
-      -webkit-box-flex: 1;
-      -moz-box-flex: 1;
-      -webkit-flex: 1;
-      -ms-flex: 1;
-      flex: 1;
-      height: 3px;
-      background: rgba($white, 0.4);
-      margin-left: 10px;
-    }
-    a {
-      color: $jack-blue;
-      &:hover {
-        color: #4dbe7a;
-      }
-    }
-    em {
-      display: inline-block;
-      margin: 0 10px;
-    }
-    &.reverse {
-      margin-top: 40px;
-      &:before {
-        content: '';
-        -webkit-box-flex: 1;
-        -moz-box-flex: 1;
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
-        height: 3px;
-        background: rgba($white, 0.4);
-        margin-right: 10px;
-      }
-      &:after {
-        display: none;
-      }
-    }
-  }
-}
-
 .date-highlight {
   text-align: center;
   margin: 50px 0;
-  color: darken($white, 40);
+  color: $gray-medium;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -675,25 +576,25 @@ canvas {
   display: flex;
   align-items: center;
   &:before {
-    content: '';
+    content: "";
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
     height: 2px;
-    background: #eaeaea;
+    background: $gray-lighter;
     margin-right: 10px;
   }
   &:after {
-    content: '';
+    content: "";
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
     height: 2px;
-    background: #eaeaea;
+    background: $gray-lighter;
     margin-left: 10px;
   }
 }
@@ -732,7 +633,7 @@ canvas {
     overflow-y: inherit;
   }
   .projects-menu li {
-    width: 50% !important;
+    width: calc(100% / 2) !important;
     height: 50% !important;
     float: left;
   }
@@ -792,13 +693,13 @@ canvas {
     height: 50% !important;
   }
   .content {
-    padding: 20px
+    padding: 20px;
   }
 }
 
 // entry meta used in tags and categories page
 .entry-meta {
-  font-size: .75rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   padding-left: 0;
   display: none; // hide header meta on small screens
@@ -834,7 +735,7 @@ canvas {
     }
   }
 }
-.entry-title > a{
+.entry-title > a {
   border: none !important;
 }
 .pagination {
@@ -867,15 +768,15 @@ canvas {
       border-radius: 0 4px 4px 0;
     }
     &:hover {
-      background-color: $jack-blue;
+      background-color: $blue-jack;
       color: $white !important;
     }
     &.disabled {
       background-color: darken($white, 3%);
-      color:darken($white, 15%) !important;
+      color: darken($white, 15%) !important;
       &:hover {
         background-color: darken($white, 3%);
-        color:darken($white, 15%) !important;
+        color: darken($white, 15%) !important;
       }
     }
   }

@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: project
 icon: icon-toy-tube-map.png
 title: "Toy Tube Map"
 description: "GA WDI Project 2"
 heroku: "https://tube-map.herokuapp.com/"
 github: "https://github.com/jackhkmatthews/WDI_PROJECT_2"
 image: "toy-tube-map.png"
+year: 2017
 tags:
   - Node.js
   - Express.js

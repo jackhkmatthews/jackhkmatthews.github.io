@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: project
 icon: icon-key-karaoke.png
 title: "Key Karaoke"
 description: "GA WDI Project 1"
 heroku: "http://keykaraoke.herokuapp.com"
 github: "https://github.com/jackhkmatthews/WDI_PROJECT_1"
 image: "key-karaoke.png"
+year: 2017
 tags:
   - JavaScript
   - jQuery

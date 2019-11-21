@@ -45,8 +45,8 @@
   -ms-user-select: none;
   user-select: none;
   &:hover {
-    background-color: $jack-blue;
-    border: 1px solid $jack-blue;
+    background-color: $blue-jack;
+    border: 1px solid $blue-jack;
     color: darken($white, 5%);
   }
   &_info {
@@ -63,11 +63,11 @@
       border-color: darken($yellow, 5%);
     }
   }
-  &_success{
-    background-color: lighten($jack-blue, 10%);
+  &_success {
+    background-color: lighten($blue-jack, 10%);
     &:hover {
-      background-color: darken($jack-blue, 5%);
-      border-color: darken($jack-blue, 5%);
+      background-color: darken($blue-jack, 5%);
+      border-color: darken($blue-jack, 5%);
     }
   }
   &_danger {
@@ -78,27 +78,19 @@
     }
   }
   &_facebook {
-    background-color: #3b5998;
+    background-color: $blue-facebook;
     color: $white !important;
     &:hover {
-      background-color: mix($white, #3b5998, 25%);
-      border-color: mix($white, #3b5998, 25%);
-    }
-  }
-  &_google-plus {
-    background-color: #dc4e41;
-    color: $white !important;
-    &:hover {
-      background-color: mix($white, #dc4e41, 25%);
-      border-color: mix($white, #dc4e41, 25%);
+      background-color: mix($white, $blue-facebook, 25%);
+      border-color: mix($white, $blue-facebook, 25%);
     }
   }
   &_twitter {
-    background-color: #55acee;
+    background-color: $blue-twitter;
     color: $white !important;
     &:hover {
-      background-color: mix($white, #55acee, 25%);
-      border-color: mix($white, #55acee, 25%);
+      background-color: mix($white, $blue-twitter, 25%);
+      border-color: mix($white, $blue-twitter, 25%);
     }
   }
 }
@@ -109,7 +101,7 @@ a.btn {
 
 // notice
 @mixin notice($notice-color) {
-  margin: 2em 0 !important;  // override
+  margin: 2em 0 !important; // override
   padding: 1em;
   font-size: 0.9em !important;
   text-indent: initial; // override
@@ -137,7 +129,7 @@ a.btn {
     }
   }
   code {
-    background-color: mix(#fff, $notice-color, 95%)
+    background-color: mix(#fff, $notice-color, 95%);
   }
   ul {
     &:last-child {
@@ -155,7 +147,7 @@ a.btn {
     @include notice($yellow);
   }
   &_success {
-    @include notice($jack-blue);
+    @include notice($blue-jack);
   }
   &_danger {
     @include notice($red);

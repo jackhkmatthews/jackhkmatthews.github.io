@@ -1,17 +1,30 @@
-$white: #FFFFFF;
+// Colors
+$white: #ffffff;
 $black: #000000;
+$gray-lighter: #eaeaea;
+$gray-light: #dedede;
 $gray: #d4d4d4;
-$overlay-color: #2c2d33;
+$gray-medium: #999;
+$gray-dark: #6c6c6c;
+$gray-darker: #585b63;
+$gray-darkest: #474747;
+$blue-jack: #4674c1;
+$blue: #19b5fe;
+$blue-facebook: #3b5998;
+$blue-twitter: #55acee;
 $green: #72cc96;
-$jack-blue: #4674c1;
-
+$green-dark: #4dbe7a;
+$green-darker: #399f62;
 $red: #ee5f5b;
-$blue: #19B5FE;
+$yellow-light: #ff0;
 $yellow: #f89406;
-$aqua: #7FDBFF;
+$aqua: #7fdbff;
+$overlay-color: $white;
 
-$jack-font: "weblysleek_uilight", sans-serif;
+// Font
 $jack-font: Avenir, sans-serif;
-$code-font: "LiberationMonoRegular",monospace;
-// break point
+$code-font: "LiberationMonoRegular", monospace;
+$font-size-h1-h2: 14px;
+
+// Break points
 $small: 750px;

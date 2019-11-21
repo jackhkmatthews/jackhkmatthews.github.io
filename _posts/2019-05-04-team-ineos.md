@@ -6,19 +6,18 @@ description: "GA WDI Project 4"
 heroku: "https://wdi-project-4-client.herokuapp.com/"
 github: "https://github.com/jackhkmatthews/WDI_PROJECT_4_API"
 image: invest-smart.png
-year: 2017
 tags:
-  - Ruby on Rails
-  - AngularJS
-  - Skeleton
-  - PostgreSQL
-  - ngResource
-  - angular-jwt
-  - chart.js
-  - angucomplete-alt
-  - nokogiri
-  - httparty
-  - Yahoo Finance API
+- Ruby on Rails
+- AngularJS
+- Skeleton
+- PostgreSQL
+- ngResource
+- angular-jwt
+- chart.js
+- angucomplete-alt
+- nokogiri
+- httparty
+- Yahoo Finance API
 ---
 
 ## Summary

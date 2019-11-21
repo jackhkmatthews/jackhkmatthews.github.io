@@ -22,7 +22,7 @@ html {
 html,
 body {
   height: 100%;
-  line-height: 1.2
+  line-height: 1.2;
 }
 
 body {
@@ -32,21 +32,21 @@ body {
 }
 
 a {
-  color: $overlay-color;
+  color: $blue-jack;
   outline: none;
-  text-decoration: none
+  text-decoration: none;
 }
 
 a:hover,
 a:active,
 a:focus,
 a:visited {
-  color: $overlay-color
+  color: $blue-jack;
 }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0
+  border-spacing: 0;
 }
 
 caption,
@@ -54,12 +54,12 @@ th,
 td {
   text-align: left;
   font-weight: normal;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 q,
 blockquote {
-  quotes: none
+  quotes: none;
 }
 
 q:before,
@@ -67,11 +67,11 @@ q:after,
 blockquote:before,
 blockquote:after {
   content: "";
-  content: none
+  content: none;
 }
 
 a img {
-  border: none
+  border: none;
 }
 
 article,
@@ -87,13 +87,13 @@ menu,
 nav,
 section,
 summary {
-  display: block
+  display: block;
 }
 
 *,
 *:after,
 *:before {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 // h tags
@@ -155,7 +155,8 @@ figure {
   }
   &.half {
     @media only screen and (min-width: $small) {
-      > a, > img {
+      > a,
+      > img {
         width: calc(50% - 4px);
         float: left;
         margin-left: 1px;
@@ -168,7 +169,8 @@ figure {
   }
   &.third {
     @media only screen and (min-width: $small) {
-      > a, > img {
+      > a,
+      > img {
         width: calc(33.3% - 6px);
         float: left;
         margin-left: 1px;
@@ -282,20 +284,20 @@ td:last-child {
 
 // code
 pre {
-    overflow-x: auto; // add scrollbars to wide code blocks
-    padding: 1rem;
-    line-height: 1.5;
-    margin: 0;
-  }
+  overflow-x: auto; // add scrollbars to wide code blocks
+  padding: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
 
-  p > code,
-  a > code,
-  li > code,
-  figcaption > code,
-  td > code {
-    padding: 0.1rem 0.2rem;
-    font-size: 0.9em;
-    border-radius: 2px;
-    background-color: darken($white, 5%);
-    font-family: $jack-font;
-  }
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  padding: 0.1rem 0.2rem;
+  font-size: 0.9em;
+  border-radius: 2px;
+  background-color: darken($white, 5%);
+  font-family: $jack-font;
+}
