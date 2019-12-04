@@ -1,24 +1,12 @@
 ---
 layout: project
-icon: icon-invest-smart.png
+icon: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,w_150/v1575488192/jackhkmatthews.com/icons/invest-smart-icon_w0ttea.png"
 title: "InvestSmart"
-description: "GA WDI Project 4"
 heroku: "https://wdi-project-4-client.herokuapp.com/"
 github: "https://github.com/jackhkmatthews/WDI_PROJECT_4_API"
-image: invest-smart.png
+imageLg: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,w_1000/v1575488120/jackhkmatthews.com/images/invest-smart_ubav3c.png"
+imageSm: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,w_500/v1575488120/jackhkmatthews.com/images/invest-smart_ubav3c.png"
 year: 2017
-tags:
-  - Ruby on Rails
-  - AngularJS
-  - Skeleton
-  - PostgreSQL
-  - ngResource
-  - angular-jwt
-  - chart.js
-  - angucomplete-alt
-  - nokogiri
-  - httparty
-  - Yahoo Finance API
 ---
 
 ## Summary

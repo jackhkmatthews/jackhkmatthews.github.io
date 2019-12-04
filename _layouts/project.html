@@ -9,7 +9,7 @@ layout: compress
     <div
       class="block-left"
       style="
-  background: linear-gradient(rgba(44,45,51,0.9), rgba(44,45,51,0.9)), url(/images/{{ page.image }}) no-repeat;
+  background: linear-gradient(rgba(44,45,51,0.9), rgba(44,45,51,0.9)), url({{ page.imageLg }}) no-repeat;
   background-size: cover;
   "
     >
@@ -23,7 +23,7 @@ layout: compress
 
         <div class="main-info">
           <div class="logo">
-            <img src="{{ site.url }}/images/{{ page.icon }}" />
+            <img src="{{ page.icon }}" />
           </div>
           <h1>
             {{ page.title }}

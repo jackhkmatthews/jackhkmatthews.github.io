@@ -1,17 +1,12 @@
 ---
 layout: project
-icon: icon-key-karaoke.png
+icon: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,w_150/v1575488193/jackhkmatthews.com/icons/key-karaoke-icon_z4lskn.png"
 title: "Key Karaoke"
-description: "GA WDI Project 1"
 heroku: "http://keykaraoke.herokuapp.com"
 github: "https://github.com/jackhkmatthews/WDI_PROJECT_1"
-image: "key-karaoke.png"
-year: 2017
-tags:
-  - JavaScript
-  - jQuery
-  - HTML
-  - CSS
+imageLg: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,w_1000/v1575488157/jackhkmatthews.com/images/key-karaoke_psjyk1.png"
+imageSm: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,w_500/v1575488157/jackhkmatthews.com/images/key-karaoke_psjyk1.png"
+year: 2016
 ---
 
 ## Summary
