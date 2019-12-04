@@ -1,6 +1,6 @@
 ---
 layout: project
-icon: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,w_150/v1575488193/jackhkmatthews.com/icons/key-karaoke-icon_z4lskn.png"
+icon: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,q_100,w_200/v1575488193/jackhkmatthews.com/icons/key-karaoke-icon_z4lskn.png"
 title: "Key Karaoke"
 heroku: "http://keykaraoke.herokuapp.com"
 github: "https://github.com/jackhkmatthews/WDI_PROJECT_1"

@@ -1,6 +1,6 @@
 ---
 layout: project
-icon: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,w_150/v1575488192/jackhkmatthews.com/icons/invest-smart-icon_w0ttea.png"
+icon: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,q_100,w_200/v1575488192/jackhkmatthews.com/icons/invest-smart-icon_w0ttea.png"
 title: "InvestSmart"
 heroku: "https://wdi-project-4-client.herokuapp.com/"
 github: "https://github.com/jackhkmatthews/WDI_PROJECT_4_API"

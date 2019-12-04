@@ -1,6 +1,6 @@
 ---
 layout: project
-icon: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,w_150/v1575488193/jackhkmatthews.com/icons/toy-tube-map-icon_qxnez8.png"
+icon: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,q_100,w_200/v1575488193/jackhkmatthews.com/icons/toy-tube-map-icon_qxnez8.png"
 title: "Toy Tube Map"
 heroku: "https://tube-map.herokuapp.com/"
 github: "https://github.com/jackhkmatthews/WDI_PROJECT_2"
