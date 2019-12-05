@@ -1,7 +1,13 @@
 # jackhkmatthews.github.io
 
-Static site generated with Jekyll and themed with (Halve)[https://github.com/TaylanTatli/Halve].
+Static site generated with Jekyll and themed with [Halve](https://github.com/TaylanTatli/Halve).
 
 ## Setup
 
-To run the project locally run `bundle exec jekyll serve`.
+To run the project locally run:
+
+```
+gem install bundler jekyll
+bundle install
+bundle exec jekyll serve
+```

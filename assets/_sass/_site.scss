@@ -168,7 +168,7 @@
     display: inline-block;
     width: calc(100% / 3);
     background: $overlay-color;
-    height: 50%;
+    height: 40%;
     border: 5px solid $overlay-color;
     position: relative;
     vertical-align: top;
@@ -634,7 +634,7 @@
   }
   .projects-menu li {
     width: calc(100% / 2) !important;
-    height: 50% !important;
+    height: 40% !important;
     float: left;
   }
   .share-buttons span {
@@ -690,7 +690,7 @@
   }
   .projects-menu li {
     width: 100% !important;
-    height: 50% !important;
+    height: 40% !important;
   }
   .content {
     padding: 20px;
