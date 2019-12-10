@@ -10,7 +10,7 @@ year: 2018
 
 ## Summary
 
-A site refresh which switched the focus from Eight Roads’ unique relationship with time to a more minimalistic but bold approach. Included an Angular front-end and django CMS / backend. The angular front-end is also SSR and includes i18n funcitonality.
+A site refresh which switched the focus from Eight Roads’ unique relationship with time to a more minimalistic but bold approach. Included an Angular front-end and django CMS / backend. The angular front-end is also SSR and includes i18n functionality.
 
 ## Favourite Bit
 

@@ -14,7 +14,7 @@ A new online hub for ParalympicsGB, combining their previous Team and Corporate 
 
 ## Favourite Bit
 
-Being handed sole front-end responsiblity for the project dispite only being a developer proper for a number of months. Deep diving into accessiblity on the web, and implementing some key features, was also very interesting.
+Being handed sole front-end responsibility for the project despite only being a developer proper for a number of months. Deep diving into accessibility on the web, and implementing some key features, was also very interesting.
 
 ## Tech
 
