@@ -4,70 +4,78 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
-{% include head.html %}
+  {% include head.html %}
 
-<body id="homepage">
-  <div class="block-left" style="
+  <body id="homepage">
+    <div
+      class="block-left"
+      style="
   background: linear-gradient(rgba(44,45,51,0.9), rgba(44,45,51,0.9)), url({{ page.imageLg }}) no-repeat;
   background-size: cover;
-  ">
-    <div class="content">
-      <div class="home-link">
-        <a href="/" class="home-logo">
-          {% include jack-logo.html %}
-        </a>
-        <span>HOME</span>
-      </div>
-
-      <div class="main-info">
-        <div class="logo">
-          {% if page.icon %}
-          <img src="{{ page.icon }}" />
-          {% endif %}
-          {% if page.wordMark %}
-          <img src="{{ page.wordMark }}" />
-          {% endif %}
+  "
+    >
+      <div class="content">
+        <div class="home-link">
+          <a href="/" class="home-logo">
+            {% include jack-logo.html %}
+          </a>
+          <span>HOME</span>
         </div>
 
-        {% if page.wordMark %}
-        <h1>
-        </h1>
-        {% else %}
-        <h1>
-          {{ page.title }}
-        </h1>
-        {% endif %}
+        <div class="main-info">
+          {% if page.icon %}
+          <div class="icon">
+            <img src="{{ page.icon }}" />
+          </div>
+          {% endif %} {% if page.wordMark %}
+          <div class="word-mark">
+            <img src="{{ page.wordMark }}" />
+          </div>
+          {% endif %} {% if page.wordMark %}
+          <h1></h1>
+          {% else %}
+          <h1>
+            {{ page.title }}
+          </h1>
+          {% endif %}
 
-        <h2>
-          {{ page.year }}
-        </h2>
-        {% if page.liveSite %}
-        <a href="{{ page.liveSite }}" class="btn" title="visit site" target="_blank">
-          <span>Visit Site</span>
-        </a>
-        {% endif %}
-        {% if page.github %}
-        <a href="{{ page.github }}" class="btn btn_github" title="Visit github" target="_blank"><i class="fa fa-github"
-            aria-hidden="true"></i>
-          <span> GitHub</span>
-        </a>
-        {% endif %}
+          <h2>
+            {{ page.year }}
+          </h2>
+          {% if page.liveSite %}
+          <a
+            href="{{ page.liveSite }}"
+            class="btn"
+            title="visit site"
+            target="_blank"
+          >
+            <span>Visit Site</span>
+          </a>
+          {% endif %} {% if page.github %}
+          <a
+            href="{{ page.github }}"
+            class="btn btn_github"
+            title="Visit github"
+            target="_blank"
+            ><i class="fa fa-github" aria-hidden="true"></i>
+            <span> GitHub</span>
+          </a>
+          {% endif %}
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="block-right">
-    <a title="project" class="projects-menu-icon">
-      <span></span>
-    </a>
-    <span class="projects-link">PROJECTS</span>
-    <div class="content">
-      <div class="about-info">
-        {{ content }}
+    <div class="block-right">
+      <a title="project" class="projects-menu-icon">
+        <span></span>
+      </a>
+      <span class="projects-link">PROJECTS</span>
+      <div class="content">
+        <div class="about-info">
+          {{ content }}
+        </div>
       </div>
     </div>
-  </div>
-  {% include overlay.html %} {% include scripts.html %}
-</body>
-
+    {% include overlay.html %} {% include scripts.html %}
+  </body>
 </html>

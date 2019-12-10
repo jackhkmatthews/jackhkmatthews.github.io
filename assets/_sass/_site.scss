@@ -225,8 +225,8 @@
   }
 }
 
-.logo {
-  max-width: 150px;
+.icon,
+.word-mark {
   display: inline-block;
   height: auto;
   background-size: 100%;
@@ -235,6 +235,14 @@
   font: 0/0 verdana;
   color: transparent;
   text-shadow: none;
+}
+
+.icon {
+  max-width: 150px;
+}
+
+.word-mark {
+  max-width: 250px;
 }
 
 .home-link {
