@@ -18,4 +18,4 @@ Being handed sole front-end responsiblity for the project dispite only being a d
 
 ## Tech
 
-Angular, Angular Material, Bootstrap, SCSS, TypeScript, WAI-ARIA.
+Angular, Angular Material, Angular SSR, Bootstrap, Express, SCSS, TypeScript, WAI-ARIA.
