@@ -10,11 +10,11 @@ year: 2019
 
 ## Summary
 
-A [Notion](https://www.notion.so/) like wiki to help Klarna communicate internal workflows to their many cross discipline teams with a user experience to match Klarna's brand identity. The project involved solving challenges like multi-user editing, content block data structures and complex front-end text editing functionality.
+A [Notion](https://www.notion.so/) style wiki to help Klarna communicate internal workflows to their many cross-discipline teams, with a user experience that champions their brand identity. The project involved solving challenges such as multi-user editing, content block data structures and complex front-end text editing functionality.
 
 ## Favourite Bit
 
-A close call between implementing some beautiful designs and interactions (courtesy of [Mike Harrison](https://www.linkedin.com/in/studiomh/) and [Kenneth Shaw](https://www.linkedin.com/in/shawkenneth/)) and wrestling with low level web APIs to manage caret position and text selection while editing the app's content blocks.
+My highlights were implementing some beautiful designs and interactions (courtesy of [Mike Harrison](https://www.linkedin.com/in/studiomh/) and [Kenneth Shaw](https://www.linkedin.com/in/shawkenneth/)) and wrestling with low level web APIs to manage caret position and text selection whilst editing the app’s content blocks.
 
 ## Tech
 
