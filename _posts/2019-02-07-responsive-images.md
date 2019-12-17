@@ -10,11 +10,11 @@ year: 2019
 
 ## Summary
 
-After working with lazy loaded responsive images for some time, I decided to conduct a technical audit of the different approaches I'd come across on our own projects and on projects in the wild. I created a Polymer playground project to better demonstrate the pros and cons of each approach and my conclusions.
+After working with lazy loaded responsive images for some time, I decided to conduct a technical audit of the different approaches I’d come across working on projects of clients and my own. I created a Polymer playground project to better demonstrate the pros and cons of each approach and my conclusions.
 
 ## Favourite Bit
 
-Recognising that, even when `<div>`s and `<img>`s have the same intrinsic dimensions and styling, they will be rendered differently. Then discovering that this can be overcome by using SVG data URIs as `src`s. In this way placeholder content can always match the dimensions of the image which is waiting to be loaded.
+Recognising that even when `<div>`s and `<img>`s have the same intrinsic dimensions and styling, they will be rendered differently, which can in turn be overcome by using SVG data URIs as `src`s. As a result, placeholder content can always match the dimensions of the image, which is waiting to be loaded.
 
 ## Tech
 
