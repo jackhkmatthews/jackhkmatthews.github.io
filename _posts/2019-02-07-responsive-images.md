@@ -2,7 +2,8 @@
 layout: project
 icon: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,q_100,w_200/v1576588215/jackhkmatthews.com/icons/responsive-image-icon_uofa9h.png"
 title: "Responsive Images"
-github: "https://github.com/jackhkmatthews/WDI_PROJECT_4_API"
+github: "https://gitlab.com/jackhkm/responsive-images"
+liveSite: "https://jackhkmatthews-responsive-imgs.herokuapp.com/"
 imageLg: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,w_1000/v1576598020/jackhkmatthews.com/images/responsive-images_ereiu9.png"
 imageSm: "https://res.cloudinary.com/dmqr7syhe/image/upload/c_scale,w_500/v1576598020/jackhkmatthews.com/images/responsive-images_ereiu9.png"
 year: 2019
