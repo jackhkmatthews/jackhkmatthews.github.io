@@ -10,7 +10,7 @@ year: 2019
 
 ## Summary
 
-An Angular web application that allows Anima exports from Sketch to be easily shared, duplicated and edited in the browser to aid content management teams in Klarna's many different geographies.
+An Angular web application that allows Anima exports from Sketch to be easily shared, duplicated and edited in the browser to aid content management teams in Klarna's many different regions.
 
 ## Favourite Bit
 
