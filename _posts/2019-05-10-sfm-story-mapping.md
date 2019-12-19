@@ -9,11 +9,11 @@ year: 2019
 
 ## Summary
 
-SOON_FM is SOON\_'s custom office radio station which allows people in the office to add tracks to a shared playlist. When we felt it was time for a rebuild I decided to test out some of the things I'd learned from my Agile Coach project and lead several 'Story Mapping' sessions to define and prioritise SOON_FM's desired functionality.
+SOON*FM is SOON*‘s custom office radio station, which allows people in the agency to add tracks to a shared playlist. When the time came for a rebuild, I decided to use this opportunity to employ some of the things I’d learnt from my Agile Coach project and lead several ‘Story Mapping’ sessions to define and prioritise SOON_FM’s desired functionality.
 
 ## Favourite Bit
 
-Recognising that before even site maps or wireframes it is possible to almost fully describe a product of project using words and workshops. This description can then form the backbone for all future work.
+Recognising that even without a site map or wire frame, it is possible to almost completely describe a product or project using only words and workshops. The outcome can then form the backbone for all future work and strengthen the project going forward.
 
 ## Tech
 
