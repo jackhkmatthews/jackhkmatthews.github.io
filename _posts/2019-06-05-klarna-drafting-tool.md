@@ -10,12 +10,12 @@ year: 2019
 
 ## Summary
 
-An Angular web application that allows Anima exports from Sketch to be easily shared, duplicated and edited in the browser to aid content managment teams in Klarna's many different geographies.
+An Angular web application that allows Anima exports from Sketch to be easily shared, duplicated and edited in the browser to aid content management teams in Klarna's many different geographies.
 
 ## Favourite Bit
 
-Implementing a generic firebase / OAuth user authetication and authorisation flow.
+Implementing a generic firebase / OAuth user authentication and authorisation flow.
 
 ## Tech
 
-Angular, Angular Fire, Angular Material, Angular Material CDK, Firebase, Firestore, NgRx, OAuth, RxJS.
+Angular, Angular Fire, Angular Material, Angular Material CDK, Firebase, Firestore, OAuth, RxJS.
