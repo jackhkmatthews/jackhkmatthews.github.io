@@ -4,10 +4,10 @@ Static site generated with Jekyll and themed with [Halve](https://github.com/Tay
 
 ## Setup
 
-To run the project locally run:
+First follow the [pre req guide](https://jekyllrb.com/docs/installation/macos/)
 
+Then run
 ```
-gem install bundler jekyll
 bundle install
 bundle exec jekyll serve
 ```
